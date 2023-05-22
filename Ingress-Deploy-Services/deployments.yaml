@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: identity
-          image: sridhar231/nginx
+          image: syedsohail321/identity-svc:1.0.0
           ports:
             - containerPort: 80
 ---
@@ -53,7 +53,7 @@ spec:
     spec:
       containers:
         - name: order
-          image: sridhar231/nginx
+          image: syedsohail321/order-svc:1.0.0
           ports:
             - containerPort: 80
 ---
@@ -82,7 +82,7 @@ spec:
     spec:
       containers:
         - name: catalog
-          image: sridhar231/nginx
+          image: syedsohail321/catalog-svc:1.0.0
           ports:
             - containerPort: 80
 ---
@@ -111,6 +111,6 @@ spec:
     spec:
       containers:
         - name: basket
-          image: sridhar231/nginx
+          image: syedsohail321/basket-svc:1.0.0
           ports:
             - containerPort: 80
