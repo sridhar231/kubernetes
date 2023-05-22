@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: identity
-          image: syedsohail321/identity-svc:1.0.0
+          image: sridhar006/identity-svc:1.0.1
           ports:
             - containerPort: 80
 ---
@@ -53,7 +53,7 @@ spec:
     spec:
       containers:
         - name: order
-          image: syedsohail321/order-svc:1.0.0
+          image: sridhar006/order-svc:1.0.1
           ports:
             - containerPort: 80
 ---
@@ -82,7 +82,7 @@ spec:
     spec:
       containers:
         - name: catalog
-          image: syedsohail321/catalog-svc:1.0.0
+          image: sridhar006/catalog-svc:1.0.1
           ports:
             - containerPort: 80
 ---
@@ -111,6 +111,6 @@ spec:
     spec:
       containers:
         - name: basket
-          image: syedsohail321/basket-svc:1.0.0
+          image: sridhar006/basket-svc:1.0.1
           ports:
             - containerPort: 80
